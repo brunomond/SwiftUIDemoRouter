@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D153A42271BDE0A000B1EFF /* VLDemoRouterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A41271BDE0A000B1EFF /* VLDemoRouterApp.swift */; };
+		3D153A44271BDE0A000B1EFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A43271BDE0A000B1EFF /* ContentView.swift */; };
+		3D153A46271BDE0B000B1EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D153A45271BDE0B000B1EFF /* Assets.xcassets */; };
+		3D153A49271BDE0B000B1EFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D153A48271BDE0B000B1EFF /* Preview Assets.xcassets */; };
+		3D153A51271BE0B6000B1EFF /* AnestesistaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A50271BE0B6000B1EFF /* AnestesistaView.swift */; };
+		3D153A53271BE167000B1EFF /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A52271BE167000B1EFF /* InitView.swift */; };
+		3D153A55271BE1A5000B1EFF /* NovoAnestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A54271BE1A5000B1EFF /* NovoAnestView.swift */; };
+		3D153A58271BE792000B1EFF /* VLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A57271BE792000B1EFF /* VLRouter.swift */; };
+		3D153A5A271BE7AB000B1EFF /* PresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A59271BE7AB000B1EFF /* PresentationStyle.swift */; };
+		3D153A5D271BE7F4000B1EFF /* RouterScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A5C271BE7F4000B1EFF /* RouterScreens.swift */; };
+		3D153A5F271BE834000B1EFF /* VLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D153A5E271BE834000B1EFF /* VLView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D153A3E271BDE0A000B1EFF /* VLDemoRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLDemoRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D153A41271BDE0A000B1EFF /* VLDemoRouterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLDemoRouterApp.swift; sourceTree = "<group>"; };
+		3D153A43271BDE0A000B1EFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D153A45271BDE0B000B1EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D153A48271BDE0B000B1EFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D153A50271BE0B6000B1EFF /* AnestesistaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnestesistaView.swift; sourceTree = "<group>"; };
+		3D153A52271BE167000B1EFF /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
+		3D153A54271BE1A5000B1EFF /* NovoAnestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoAnestView.swift; sourceTree = "<group>"; };
+		3D153A57271BE792000B1EFF /* VLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLRouter.swift; sourceTree = "<group>"; };
+		3D153A59271BE7AB000B1EFF /* PresentationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationStyle.swift; sourceTree = "<group>"; };
+		3D153A5C271BE7F4000B1EFF /* RouterScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterScreens.swift; sourceTree = "<group>"; };
+		3D153A5E271BE834000B1EFF /* VLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D153A3B271BDE0A000B1EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D153A35271BDE0A000B1EFF = {
+			isa = PBXGroup;
+			children = (
+				3D153A40271BDE0A000B1EFF /* VLDemoRouter */,
+				3D153A3F271BDE0A000B1EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D153A3F271BDE0A000B1EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D153A3E271BDE0A000B1EFF /* VLDemoRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D153A40271BDE0A000B1EFF /* VLDemoRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3D153A5B271BE7B4000B1EFF /* Enums */,
+				3D153A56271BE787000B1EFF /* Router */,
+				3D153A4F271BE0A5000B1EFF /* Views */,
+				3D153A41271BDE0A000B1EFF /* VLDemoRouterApp.swift */,
+				3D153A43271BDE0A000B1EFF /* ContentView.swift */,
+				3D153A45271BDE0B000B1EFF /* Assets.xcassets */,
+				3D153A47271BDE0B000B1EFF /* Preview Content */,
+			);
+			path = VLDemoRouter;
+			sourceTree = "<group>";
+		};
+		3D153A47271BDE0B000B1EFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D153A48271BDE0B000B1EFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D153A4F271BE0A5000B1EFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D153A5E271BE834000B1EFF /* VLView.swift */,
+				3D153A52271BE167000B1EFF /* InitView.swift */,
+				3D153A50271BE0B6000B1EFF /* AnestesistaView.swift */,
+				3D153A54271BE1A5000B1EFF /* NovoAnestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D153A56271BE787000B1EFF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3D153A57271BE792000B1EFF /* VLRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3D153A5B271BE7B4000B1EFF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3D153A59271BE7AB000B1EFF /* PresentationStyle.swift */,
+				3D153A5C271BE7F4000B1EFF /* RouterScreens.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D153A3D271BDE0A000B1EFF /* VLDemoRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D153A4C271BDE0B000B1EFF /* Build configuration list for PBXNativeTarget "VLDemoRouter" */;
+			buildPhases = (
+				3D153A3A271BDE0A000B1EFF /* Sources */,
+				3D153A3B271BDE0A000B1EFF /* Frameworks */,
+				3D153A3C271BDE0A000B1EFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLDemoRouter;
+			productName = VLDemoRouter;
+			productReference = 3D153A3E271BDE0A000B1EFF /* VLDemoRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D153A36271BDE0A000B1EFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3D153A3D271BDE0A000B1EFF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 3D153A39271BDE0A000B1EFF /* Build configuration list for PBXProject "VLDemoRouter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D153A35271BDE0A000B1EFF;
+			productRefGroup = 3D153A3F271BDE0A000B1EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D153A3D271BDE0A000B1EFF /* VLDemoRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D153A3C271BDE0A000B1EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D153A49271BDE0B000B1EFF /* Preview Assets.xcassets in Resources */,
+				3D153A46271BDE0B000B1EFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D153A3A271BDE0A000B1EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D153A58271BE792000B1EFF /* VLRouter.swift in Sources */,
+				3D153A5A271BE7AB000B1EFF /* PresentationStyle.swift in Sources */,
+				3D153A5D271BE7F4000B1EFF /* RouterScreens.swift in Sources */,
+				3D153A55271BE1A5000B1EFF /* NovoAnestView.swift in Sources */,
+				3D153A53271BE167000B1EFF /* InitView.swift in Sources */,
+				3D153A51271BE0B6000B1EFF /* AnestesistaView.swift in Sources */,
+				3D153A44271BDE0A000B1EFF /* ContentView.swift in Sources */,
+				3D153A5F271BE834000B1EFF /* VLView.swift in Sources */,
+				3D153A42271BDE0A000B1EFF /* VLDemoRouterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D153A4A271BDE0B000B1EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D153A4B271BDE0B000B1EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D153A4D271BDE0B000B1EFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VLDemoRouter/Preview Content\"";
+				DEVELOPMENT_TEAM = TK27X2JHYN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.app.volan.VLDemoRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D153A4E271BDE0B000B1EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VLDemoRouter/Preview Content\"";
+				DEVELOPMENT_TEAM = TK27X2JHYN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.app.volan.VLDemoRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D153A39271BDE0A000B1EFF /* Build configuration list for PBXProject "VLDemoRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D153A4A271BDE0B000B1EFF /* Debug */,
+				3D153A4B271BDE0B000B1EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D153A4C271BDE0B000B1EFF /* Build configuration list for PBXNativeTarget "VLDemoRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D153A4D271BDE0B000B1EFF /* Debug */,
+				3D153A4E271BDE0B000B1EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D153A36271BDE0A000B1EFF /* Project object */;
+}
